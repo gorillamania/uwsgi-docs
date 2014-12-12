@@ -152,7 +152,7 @@ This might be not enough for high traffic sites. You can add automatic ``Expires
    # Expire an hour from the file's modification time
    --static-expires-type-mtime text/html=3600
    # Same as static-expires-type, but based on a regexp:
-   --static-expires /var/www/static/foo*\.jpg 3600
+   --static-expires-path-info /var/www/static/foo*\.jpg 3600
 
 Transfer modes
 **************
